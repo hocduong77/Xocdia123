@@ -1,0 +1,1689 @@
+/* line 2, default.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 3, default.scss */
+.col-left {
+  float: left !important; }
+
+/* line 4, default.scss */
+.col-right {
+  float: right !important; }
+
+/* line 5, default.scss */
+.nop-left {
+  padding-left: 0; }
+
+/* line 6, default.scss */
+.nop-right {
+  padding-right: 0; }
+
+/* line 7, default.scss */
+.nopad {
+  padding: 0; }
+
+/* line 8, default.scss */
+.container {
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1050px !important;
+  min-width: 1050px;
+  margin: 0 auto; }
+
+/* line 9, default.scss */
+.center {
+  text-align: center; }
+
+/* line 10, default.scss */
+.textleft {
+  text-align: left; }
+
+/* line 11, default.scss */
+.textright {
+  text-align: right; }
+
+/* line 12, default.scss */
+.normal {
+  font-weight: normal; }
+
+/* line 13, default.scss */
+.bold {
+  font-weight: bold; }
+
+/* line 14, default.scss */
+.clear {
+  width: 100%;
+  clear: both;
+  display: block;
+  float: none; }
+
+/* line 15, default.scss */
+.border {
+  border-right: 2px solid #a54706; }
+
+/* line 17, default.scss */
+a {
+  color: #333; }
+  /* line 18, default.scss */
+  a:hover {
+    color: #cc1f22;
+    text-decoration: none; }
+
+/* line 19, default.scss */
+a:focus {
+  outline: none; }
+
+/* line 20, default.scss */
+h1 {
+  color: #55a32a;
+  text-transform: uppercase; }
+
+/* line 21, default.scss */
+h4 {
+  color: #55a32a; }
+
+/* line 22, default.scss */
+body {
+  font-family: arial, sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background: url(images/bg.jpg) repeat;
+  font-size: 14px;
+  padding-bottom: 20px; }
+
+/* line 23, default.scss */
+.page {
+  min-width: 1050px;
+  overflow: hidden;
+   }
+
+/*HEADER*/
+/* line 26, default.scss */
+header {
+  margin-top: 5px;
+  height: 115px; }
+
+/* line 29, default.scss */
+.navtop {
+  height: 74px;
+  background: #edeef3;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+   }
+  /* line 31, default.scss */
+  .navtop .register, .navtop .login, .navtop .user, .navtop .logout, .navtop .noiquy, .navtop .help, .navtop .homeicon,.navtop .login-wrap {
+    display: inline-block;
+    padding: 0 15px; overflow: hidden; }
+  /* line 32, default.scss */
+  .navtop a {
+    font-size: 20px;
+    color: #950608;
+    vertical-align: middle;
+    height: 74px;
+    line-height: 74px; }
+    /* line 33, default.scss */
+    .navtop a:hover {
+      color: #ff0000; }
+  /* line 35, default.scss */
+  .navtop .homeicon a {
+    background: url(images/home-icon.png) no-repeat left center;
+    display: block;
+    height: 74px;
+    padding-left: 52px; }
+  /* line 36, default.scss */
+  .navtop .register a {
+    background: url(images/register.jpg) no-repeat left center !important;
+    display: block;
+    height: 74px;
+    padding-left: 46px !important; }
+  /* line 37, default.scss */
+  .navtop .login a {
+    background: url(images/login.jpg) no-repeat left center  !important;
+    display: block;
+    height: 74px;
+    padding-left: 54px  !important; }
+  /* line 38, default.scss */
+  .navtop .login-wrap a {
+    background: url(images/icon1.jpg) no-repeat left 5px;
+    display: inline-block;
+    height: 74px;
+    padding-left: 85px; }
+  /* line 39, default.scss */
+  .navtop .logout a {
+    background: url(images/icon2.jpg) no-repeat left center;
+    display: block;
+    height: 74px;
+    padding-left: 60px; }
+  /* line 40, default.scss */
+  .navtop .noiquy a {
+    background: url(images/icon3.jpg) no-repeat left center;
+    display: block;
+    height: 74px;
+    padding-left: 85px; }
+  /* line 41, default.scss */
+  .navtop .help a {
+    background: url(images/icon4.jpg) no-repeat left center;
+    display: block;
+    height: 74px;
+    padding-left: 76px; }
+
+/* line 43, default.scss */
+.nav-main {
+  text-align: center;
+  background: #fd7e17; }
+  /* line 44, default.scss */
+  .nav-main .main-nav {
+    display: inline-block;
+    line-height: 40px; }
+  /* line 45, default.scss */
+  .nav-main a {
+    padding: 0 20px 0 0;
+    font-size: 14px;
+    color: #fff; }
+    /* line 46, default.scss */
+    .nav-main a:hover, .nav-main a.active {
+      color: #fcff00; }
+  /* line 48, default.scss */
+  .nav-main .xuhienco {
+    background: url(images/xu.png) no-repeat left center;
+    padding-left: 42px;
+    display: block; }
+  /* line 49, default.scss */
+  .nav-main .napxu {
+    background: url(images/napxu.png) no-repeat left center;
+    padding-left: 46px;
+    display: block; }
+
+/* line 51, default.scss */
+.khuyenmai {
+  background: url(images/loa.png) no-repeat left center;
+  padding-left: 40px;
+  display: block; }
+
+/* line 54, default.scss */
+#content .container .content {
+  position: relative;
+  background: #edeef3;
+  border-radius: 0 0 4px 4px; }
+  /* line 55, default.scss */
+  #content .container .content .vaolistphong {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #930708;
+    line-height: 50px;
+    text-align: center;
+    bottom: 60px;
+    left: 40%;
+    background: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px 2px #930708;
+    color: #fff; }
+    /* line 56, default.scss */
+    #content .container .content .vaolistphong a {
+      color: #930708;
+      font-size: 18px;
+      display: block;
+      height: 100%; }
+      /* line 56, default.scss */
+      #content .container .content .vaolistphong a:hover {
+        text-decoration: none; }
+    /* line 57, default.scss */
+    #content .container .content .vaolistphong:hover {
+      background: #fff; }
+
+/* line 62, default.scss */
+.index {
+  background: #d31821 url(images/bg-content.jpg) no-repeat center top;
+  min-height: 435px;
+  border-radius: 0 0 4px 4px; }
+
+/* line 63, default.scss */
+.modal-body, .modal-title {
+  font-size: 24px;
+  text-align: center;
+  color: #d91919; }
+
+/* line 64, default.scss */
+.zone-vip, .zone-nomal {
+  background: url(images/bgtatable.jpg) repeat-y;
+  height: 38px;
+  padding-left: 50px;
+  margin: 8px 0;
+  font-weight: bold;
+  color: #fff;
+  line-height: 38px; }
+
+/* line 65, default.scss */
+.col6 {
+  width: 49%;
+  display: inline-block;
+  margin: 0 0 0 2%;
+  float: left; }
+
+/* line 66, default.scss */
+.col6:nth-child(2n) {
+  margin-left: 0; }
+
+/* line 67, default.scss */
+.item-table {
+  background: #f3be96;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  box-shadow: -2px 2px 5px #666;
+  display: block;
+  margin-bottom: 10px; }
+  /* line 68, default.scss */
+  .item-table:hover {
+    box-shadow: 0px 0px 10px #ff1110;
+    background: #f9c9a5; }
+
+/* line 70, default.scss */
+.number {
+  background: url(images/table.png) no-repeat;
+  width: 73px;
+  height: 59px;
+  text-align: center;
+  color: #fff;
+  float: left;
+  display: block;
+  margin-right: 20px;
+  line-height: 24px;
+  font-size: 18px; }
+
+/* line 71, default.scss */
+.item-table-info {
+  float: left;
+  display: block; }
+  /* line 72, default.scss */
+  .item-table-info span {
+    display: block;
+    color: #ff6600; }
+
+/* line 74, default.scss */
+.tablefull {
+  background: #ff1110 !important;
+  box-shadow: -2px 2px 5px #666 !important; }
+  /* line 76, default.scss */
+  .tablefull .item-table-info span {
+    color: #fff; }
+
+/* line 81, default.scss */
+.login-page {
+  padding: 30px 15px; }
+  /* line 82, default.scss */
+  .login-page .frm-form {
+    width: 450px;
+    margin-top: 30px; }
+
+/* line 84, default.scss */
+h1, h2 {
+  font-size: 40px;
+  color: #950608;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px; }
+
+/* line 85, default.scss */
+.frm-form {
+  margin: 0px auto; }
+  /* line 86, default.scss */
+  .frm-form .frm-row {
+    padding-bottom: 8px;
+    position: relative; }
+    /* line 87, default.scss */
+    .frm-form .frm-row a {
+      color: #9c0a0a; }
+      /* line 88, default.scss */
+      .frm-form .frm-row a:hover {
+        color: #ff0000; }
+    /* line 90, default.scss */
+    .frm-form .frm-row:after {
+      content: '';
+      width: 100%;
+      height: 1px;
+      display: block;
+      clear: both;
+      float: none;
+      clear: both; }
+  /* line 92, default.scss */
+  .frm-form label {
+    float: left;
+    display: block;
+    width: 150px;
+    min-height: 20px;
+    line-height: 24px; }
+  /* line 93, default.scss */
+  .frm-form input {
+    width: 300px;
+    float: left;
+    padding: 5px 10px;
+    border:1px solid #999; }
+  /* line 94, default.scss */
+  .frm-form input[type='checkbox'] {
+    width: auto; }
+  /* line 95, default.scss */
+  .frm-form input[type='submit'],.frm-form input[type='button'] {
+    width: auto;
+    padding: 5px 25px;
+    background: #900e0e;
+    border: none;
+    border-bottom: 3px solid #da1b1b;
+    border-radius: 6px;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0px;
+    text-transform: uppercase; }
+    /* line 96, default.scss */
+    .frm-form input[type='submit']:hover,.frm-form input[type='button']:hover {
+      background: #da1b1b;
+      border-bottom: 3px solid #900e0e; }
+
+/* line 99, default.scss */
+.spanhide {
+  position: absolute;
+  right: -305px;
+  top: 5px;
+  width: 300px;
+  color: #ff0000; }
+
+/* line 100, default.scss */
+.warning {
+  color: #ff0000; }
+
+/* line 102, default.scss */
+.register-ses p {
+  width: 450px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 16px; }
+
+/* line 104, default.scss */
+input[type=text]:disabled {
+  background: #edeef3;
+  border: none; }
+
+/* line 108, default.scss */
+.curencent {
+  font-size: 30px;
+  font-weight: bold; }
+
+/* line 109, default.scss */
+.note {
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 20px;
+ }
+#xurut{font-size:16px;color:red;}
+/* line 110, default.scss */
+.curentlabel {
+  padding-top: 8px; }
+.listroom-wrap{padding-bottom: 20px;}
+/* line 113, default.scss */
+.zone-acc-info, .zone-bank-info {
+  height: 32px;
+  line-height: 32px;
+  padding-left: 36px;
+  border-bottom: 1px solid #d9dbda;
+  color: #950608;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 20px 0; }
+
+/* line 114, default.scss */
+.zone-acc-info {
+  background: url(images/thongtinchung.jpg) no-repeat left center; }
+
+/* line 115, default.scss */
+.zone-bank-info {
+  background: url(images/bank.jpg) no-repeat left center; }
+
+/* line 118, default.scss */
+.creatban {
+  background: #f3be96;
+  padding: 20px;
+  border-radius: 0 0 4px 4px; }
+  /* line 119, default.scss */
+  .creatban label {
+    width: 100px; }
+  /* line 120, default.scss */
+  .creatban input, .creatban select {
+    height: 25px;
+    width: 250px;
+    padding: 0 5px; }
+  /* line 121, default.scss */
+  .creatban .frm-row {
+    margin-bottom: 8px; }
+  /* line 122, default.scss */
+  .creatban form {
+    margin-top: 30px;
+    padding-left: 40px; }
+  /* line 123, default.scss */
+  .creatban input[type="submit"] {
+    background: #f66d1d;
+    border: none;
+    width: auto;
+    padding: 0px 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold; }
+  /* line 124, default.scss */
+  .creatban input[type="submit"]:hover {
+    background: #d9590e; }
+
+/* line 126, default.scss */
+.creatban .note {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  background: #fc8e2d;
+  color: #fff; }
+
+/* line 127, default.scss */
+.taophong {
+  background: url(images/createtable.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-top: 4px; }
+
+/* line 130, default.scss */
+#content .container .content.wrapbanchoi {
+  background: none;
+  padding-top: 8px; }
+
+/* line 131, default.scss */
+.tableplaycegame {
+  background: url(images/ban.png) no-repeat center top;
+  height: 567px;
+  width: 974px;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 132, default.scss */
+.acc-wrap-top {
+  display: block;
+  float: none;
+  clear: both; }
+
+/* line 133, default.scss */
+.chairhasacc {
+  width: 104px;
+  height: 111px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px #000;
+  background: url(images/bgnguoichoi.png) no-repeat;
+  display: table;
+  text-align: center;
+  float: left;
+  position: relative; }
+  /* line 134, default.scss */
+  .chairhasacc > div {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer; }
+    /* line 135, default.scss */
+    .chairhasacc > div span {
+      display: block; }
+    /* line 136, default.scss */
+    .chairhasacc > div img {
+      max-width: 52px;
+      max-height: 100px; }
+    /* line 137, default.scss */
+    .chairhasacc > div:hover {
+      color: yellow; }
+    /* line 138, default.scss */
+    .chairhasacc > div:hover .delete-acc {
+      display: block; }
+  /* line 140, default.scss */
+  .chairhasacc .delete-acc {
+    display: none;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 33%;
+    bottom: 33%;
+    color: red;
+    border-radius: 6px;
+    text-align: center;
+    background: #eee;
+    padding-top: 5px; }
+
+/* line 142, default.scss */
+.acc-wrap-right {
+  width: 104px;
+  float: right;
+  margin-top: 43px;
+  margin-right: -40px; }
+
+/* line 143, default.scss */
+.acc-wrap-left {
+  width: 104px;
+  float: left;
+  margin-top: 43px;
+  margin-left: -40px; }
+
+/* line 144, default.scss */
+.acc-wrap-left .chairhasacc, .acc-wrap-right .chairhasacc {
+  margin-bottom: 35px; }
+
+/* line 145, default.scss */
+.marright35 {
+  margin-right: 35px; }
+
+/* line 146, default.scss */
+.acc1 {
+  margin-left: 160px; }
+
+/* line 147, default.scss */
+.no-acc {
+  background: url(images/chotrong.jpg) no-repeat;
+  width: 104px;
+  height: 111px;
+  display: block;
+  border-radius: 4px; }
+
+/* line 149, default.scss */
+.wrap-cua {
+  color: #8aa488;
+  font-size: 24px;
+  text-align: center;
+  width: 185px;
+  display: inline-block; }
+  /* line 150, default.scss */
+  .wrap-cua span {
+    display: block; }
+
+/* line 152, default.scss */
+.wrap-chan {
+  margin: 20px 0px 0 70px; }
+
+/* line 153, default.scss */
+.wrap-le {
+  margin: 20px 70px 0 0px; }
+
+/* line 154, default.scss */
+.wrap-back-white {
+  padding-top: 34px;
+  text-align: center; }
+
+/* line 155, default.scss */
+.marright7 {
+  margin-right: 7px; }
+
+/* line 156, default.scss */
+.cuachan, .cuale, .cuafback, .cuatback, .cuatwhite, .cuafwhite {
+  position: relative;
+  cursor: pointer;
+  border-radius: 6px; }
+
+/* line 157, default.scss */
+.frmcuoc {
+  box-shadow: 0 0 5px #000;
+  width: 185px;
+  height: 150px;
+  padding: 15px 0 0; }
+  /* line 158, default.scss */
+  .frmcuoc:hover, .frmcuoc.active {
+    box-shadow: 0 0 10px #fff; }
+
+/* line 160, default.scss */
+.wrap-back-white .summonney {
+  padding-left: 32px; }
+
+/* line 161, default.scss */
+.cuachan {
+  background: url(images/chan.jpg) no-repeat; }
+
+/* line 162, default.scss */
+.cuale {
+  background: url(images/le.jpg) no-repeat; }
+
+/* line 163, default.scss */
+.cuafback {
+  background: url(images/4den.jpg) no-repeat; }
+
+/* line 164, default.scss */
+.cuatback {
+  background: url(images/3den.jpg) no-repeat; }
+
+/* line 165, default.scss */
+.cuatwhite {
+  background: url(images/3trang.jpg) no-repeat; }
+
+/* line 166, default.scss */
+.cuafwhite {
+  background: url(images/4trang.jpg) no-repeat; }
+
+/* line 168, default.scss */
+.bg-xocdia {
+  padding-top: 72px; }
+
+/* line 169, default.scss */
+.xocdia-wrap {
+  width: 184px;
+  height: 111px;
+  margin: 0 auto 0;
+  position: relative; }
+
+/* line 170, default.scss */
+.diaxoc {
+  background: url(images/dia.png) no-repeat;
+  width: 184px;
+  height: 111px;
+  display: block;
+  position: relative; }
+
+/* line 171, default.scss */
+.timer {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: -50px;
+  left: 26px; }
+
+/* line 172, default.scss */
+.chen {
+  background: url(images/chen.png) no-repeat;
+  width: 122px;
+  height: 112px;
+  position: absolute;
+  top: -7px;
+  left: 33px; }
+
+/* line 173, default.scss */
+.wrap-hotxucxac {
+  position: absolute;
+  top: 30px;
+  width: 70px;
+  left: 60px;
+  font-size: 0; }
+
+/* line 174, default.scss */
+.hottrang {
+  background: url(images/xucxactrang.png) no-repeat center center;
+  width: 28px;
+  height: 27px;
+  display: inline-block; }
+
+/* line 175, default.scss */
+.hotden {
+  background: url(images/xucxacden.png) no-repeat center center;
+  width: 28px;
+  height: 27px;
+  display: inline-block; }
+
+/* line 177, default.scss */
+.frm-contentxu {
+  width: 130px;
+  margin: 0 auto;
+  height: 95px;
+  overflow: hidden; }
+
+/* line 178, default.scss */
+.summonney {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  color: #fff; }
+
+/* line 179, default.scss */
+.thoatphong {
+  margin: 30px 0 0 90px;
+  float:left; }
+  /* line 180, default.scss */
+  .thoatphong a {
+    background: url(images/thoat.png) no-repeat left center;
+    height: 45px;
+    line-height: 44px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    padding-left: 50px;
+    float: left; }
+    /* line 181, default.scss */
+    .thoatphong a:hover {
+      color: yellow; }
+.tablenguoichoi{margin-top:54px;}
+.emptyxu{font-size: 16px;
+display: block;
+background: #fff;
+float: left;
+color: red;
+padding: 5px 10px;
+border-radius: 4px;
+margin-top: 33px;
+margin-left: 54px;}
+
+/* line 184, default.scss */
+.taikhoanxu {
+  background: url(images/tien.png) no-repeat left center;
+  padding-left: 93px;
+  height: 66px;
+  line-height: 66px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  width: 269px; }
+
+/* line 185, default.scss */
+.loaixu {
+  float: left;
+  margin-top: 8px; }
+  /* line 186, default.scss */
+  .loaixu .xu100, .loaixu .xu50, .loaixu .xu10, .loaixu .xu5 {
+    float: left;
+    margin-right: 20px; }
+  /* line 187, default.scss */
+  .loaixu .xu100 {
+    background-image: url(images/100xu.png) no-repeat;
+    width: 55px;
+    height: 45px;
+    margin-left: 25px; }
+    /* line 188, default.scss */
+    .loaixu .xu100 button {
+      background: none;
+      border: none;
+      border-radius: 50%;
+      height: 45px; }
+    /* line 189, default.scss */
+    .loaixu .xu100 img {
+      border-radius: 50%;
+      box-shadow: 0 0 1px 1px #c40000; }
+    /* line 190, default.scss */
+    .loaixu .xu100:hover img {
+      box-shadow: 0 0 5px 3px #fff; }
+  /* line 192, default.scss */
+  .loaixu .xu50 {
+    background-image: url(images/50xu.png) no-repeat;
+    width: 55px;
+    height: 45px; }
+    /* line 193, default.scss */
+    .loaixu .xu50 button {
+      background: none;
+      border: none;
+      border-radius: 50%;
+      height: 45px; }
+    /* line 194, default.scss */
+    .loaixu .xu50 img {
+      border-radius: 50%;
+      box-shadow: 0 0 1px 1px #c40000; }
+    /* line 195, default.scss */
+    .loaixu .xu50:hover img {
+      box-shadow: 0 0 5px 3px #fff; }
+  /* line 197, default.scss */
+  .loaixu .xu10 {
+    background-image: url(images/10xu.png) no-repeat;
+    width: 55px;
+    height: 45px; }
+    /* line 198, default.scss */
+    .loaixu .xu10 button {
+      background: none;
+      border: none;
+      border-radius: 50%;
+      height: 45px; }
+    /* line 199, default.scss */
+    .loaixu .xu10 img {
+      border-radius: 50%;
+      box-shadow: 0 0 1px 1px #c40000; }
+    /* line 200, default.scss */
+    .loaixu .xu10:hover img {
+      box-shadow: 0 0 5px 3px #fff; }
+  /* line 202, default.scss */
+  .loaixu .xu5 {
+    background-image: url(images/5xu.png) no-repeat;
+    width: 55px;
+    height: 45px;
+    margin-right: 0px; }
+    /* line 203, default.scss */
+    .loaixu .xu5 button {
+      background: none;
+      border: none;
+      border-radius: 50%;
+      height: 45px; }
+    /* line 204, default.scss */
+    .loaixu .xu5 img {
+      border-radius: 50%;
+      box-shadow: 0 0 1px 1px #c40000; }
+    /* line 205, default.scss */
+    .loaixu .xu5:hover img {
+      box-shadow: 0 0 5px 3px #fff; }
+
+/* line 208, default.scss */
+.button-wrap {
+  float: right;
+  margin-top: -40px; }
+  /* line 209, default.scss */
+  .button-wrap .tablenguoichoi[disabled],.button-wrap .tablenguoichoi[disabled]:hover,.button-wrap .btn-bancua[disabled],.button-wrap .btn-bancua:hover[disabled],.start[disabled],.start[disabled]:hover,.clousehen[disabled],.clousehen[disabled]:hover{background:gray}
+  .btnaxu[disabled] img{box-shadow:none !important;}
+  .disabled{color:gray !important;cursor: default;}
+  .button-wrap .btn-datcuoc, .button-wrap .btn-bancua {
+    background: #f8a401;
+    padding: 5px 20px;
+    box-shadow: 2px 3px 8px #000;
+    color: #fff;
+    font-weight: bold;
+    border: none; }
+    /* line 210, default.scss */
+    .button-wrap .btn-datcuoc:hover, .button-wrap .btn-bancua:hover {
+      background: #fed121; }
+  /* line 212, default.scss */
+  .button-wrap .btn-datlai {
+    background: #1b5f11;
+    padding: 5px 20px;
+    box-shadow: 2px 3px 8px #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-left: 5px; }
+    /* line 213, default.scss */
+    .button-wrap .btn-datlai:hover {
+      background: #1e910e; }
+  /* line 215, default.scss */
+  .button-wrap .btn-tanggapdoi {
+    background: #154009;
+    padding: 5px 20px;
+    box-shadow: 2px 3px 8px #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-left: 5px; }
+    /* line 216, default.scss */
+    .button-wrap .btn-tanggapdoi:hover {
+      background: #1e910e; }
+
+/* line 219, default.scss */
+.start {
+  background: #16a501;
+  padding: 4px 25px;
+  border: none;
+  margin-bottom: 28px;
+  box-shadow: 2px 3px 8px #000;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin-right: 5px; }
+  /* line 220, default.scss */
+  .start:hover {
+    background: #138702; }
+
+/* line 223, default.scss */
+.clousehen {
+  background: #b50101;
+  padding: 4px 25px;
+  border: none;
+  margin-bottom: 28px;
+  box-shadow: 2px 3px 8px #000;
+  color: #fff;
+  font-weight: bold;
+  border: none; }
+  /* line 224, default.scss */
+  .clousehen:hover {
+    background: #d43838; }
+
+/* line 228, default.scss */
+.xu100app {
+  background: url(images/100xu.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  float: left;
+  position: absolute; }
+
+/* line 229, default.scss */
+.xu50app {
+  background: url(images/50xu.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  float: left;
+  position: absolute; }
+
+/* line 230, default.scss */
+.xu10app {
+  background: url(images/10xu.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  float: left;
+  position: absolute; }
+
+/* line 231, default.scss */
+.xu5app {
+  background: url(images/5xu.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  float: left;
+  position: absolute; }
+
+/* line 232, default.scss */
+.moidatcuoc {
+  display: none;
+  background: url(images/bgacc.png);
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  vertical-align: middle; }
+  /* line 233, default.scss */
+  .moidatcuoc span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    color: #000; }
+
+/* line 235, default.scss */
+.wrap-back-white .frm-contentxu {
+  width: 120px;
+  margin-left: 52px; }
+
+/* line 236, default.scss */
+.countdown-section {
+  font-size: 20px;
+  vertical-align: middle; }
+
+/* line 237, default.scss */
+.addxu {
+  font-size: 0; }
+
+/* line 240, default.scss */
+.admin-wrap {
+  padding: 0;
+  margin: 8px 0 0; }
+  /* line 241, default.scss */
+  .admin-wrap h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333; }
+
+/* line 243, default.scss */
+.admin-left-content {
+  width: 20%;
+  padding: 15px;
+  background: #fd7e17;
+  float: left; }
+  /* line 244, default.scss */
+  .admin-left-content ul {padding:0;
+    margin-bottom: 20px; }
+  /* line 245, default.scss */
+  .admin-left-content li {
+    display: block;
+    border-bottom: 1px solid #fff; }
+    /* line 246, default.scss */
+    .admin-left-content li a {
+      padding: 5px;
+      display: block;
+      color: #333;
+      color: #fff; }
+      /* line 247, default.scss */
+      .admin-left-content li a:hover, .admin-left-content li a:active {
+        background: #fecb00;
+        color: #fff; }
+
+/* line 251, default.scss */
+.admin-right-content {
+  width: 80%;
+  float: right;
+  padding: 15px; }
+  /* line 252, default.scss */
+  .admin-right-content td {
+    padding: 5px;
+    border: 1px solid #c75a01;
+    vertical-align: middle; }
+  /* line 253, default.scss */
+  .admin-right-content h1 {
+    color: #cb0307; }
+  /* line 254, default.scss */
+  .admin-right-content h2 {
+    color: #cb0307;
+    font-size: 36px;
+    padding-right: 60px; }
+
+/* line 256, default.scss */
+.tr-head {
+  background: #fd7e17;
+  color: #fff; }
+
+/* line 257, default.scss */
+.frm-timkiem {
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto; }
+  /* line 259, default.scss */
+  .frm-timkiem .frm-form label {
+    min-height: 1px;
+    width: 100px;
+    padding-top: 5px; }
+  /* line 260, default.scss */
+  .frm-timkiem .frm-form input[type="text"] {
+    height: 34px;
+    padding-left: 5px;
+    float: left;
+    width: 100px;
+    border:1px solid #999;margin-right:5px; }
+  /* line 261, default.scss */
+  .frm-timkiem .frm-form input[type="submit"] {
+    margin-top: 0;
+    float: left;
+    margin-left: 5px;
+    padding: 5px 25px; }
+
+/* line 264, default.scss */
+.frm-napxu {
+  width: 500px;
+  margin: 0 auto; }
+  /* line 266, default.scss */
+  .frm-napxu .frm-form label {
+    width: 150px; }
+  /* line 267, default.scss */
+  .frm-napxu .frm-form input[type="submit"], .frm-napxu .frm-form button {
+    margin-top: 0;
+    float: left;
+    margin-left: 0px;
+    padding: 5px 25px; }
+
+/* line 271, default.scss */
+.btnactive {
+  background: #fd7e17;
+  border: none;
+  border-bottom: 2px solid #c25700;
+  border-radius: 2px;
+  padding: 5px 10px;
+  display: block;
+  color: #fff;
+  float: right;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+   }
+  /* line 273, default.scss */
+  .btnactive:hover {
+    background: #c25700;
+    border-bottom: 2px solid #fd7e17;
+    color: #fff; }
+
+/* line 275, default.scss */
+.finished {
+  border: 1px solid #fd7e17;
+  padding: 2px 5px;
+  display: block;
+  float: right;
+  border-radius: 3px;
+  color: #fd7e17;
+  width: 100px;
+  text-align: center; }
+
+/* line 276, default.scss */
+.hasbutton {
+  display: block;
+  float: left;
+  padding-top: 6px; }
+
+/* line 277, default.scss */
+.btnewrequest {
+  background: #3cb401;
+  border-bottom: 2px solid #2d8901; }
+  /* line 278, default.scss */
+  .btnewrequest:hover {
+    background: #2d8901;
+    border-bottom: 2px solid #3cb401; }
+
+/* line 281, default.scss */
+.frm-napxu .frm-form.tylecuoc input[type='text'] {
+  width: 123px; }
+/* line 282, default.scss */
+.frm-napxu .frm-form.tylecuoc span {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding-top: 5px; }
+/* line 283, default.scss */
+.frm-napxu .frm-form.tylecuoc .xacnhan {
+  margin-top: 5px;
+  margin-left: 33px; }
+
+/* line 286, default.scss */
+.qlban {
+  width: 400px;
+  margin: 0 auto; }
+  /* line 288, default.scss */
+  .qlban .frm-form label {
+    display: block;
+    width: 230px; }
+  /* line 289, default.scss */
+  .qlban .frm-form input[type='text'] {
+    width: 123px; }
+  /* line 290, default.scss */
+  .qlban .frm-form input[type='submit'] {
+    float: left; }
+  /* line 291, default.scss */
+  .qlban .frm-form .waitting {
+    margin-right: 20px; }
+
+/* line 294, default.scss */
+.frm-timer {
+  width: 300px;
+  margin: 0 auto; }
+  /* line 295, default.scss */
+  .frm-timer label {
+    width: 150px; }
+  /* line 296, default.scss */
+  .frm-timer input[type="text"] {
+    width: 123px; }
+  /* line 297, default.scss */
+  .frm-timer input[type="submit"] {
+    float: left; }
+
+/* line 299, default.scss */
+.qlhh {
+  width: 400px;
+  margin: 0 auto; }
+  /* line 300, default.scss */
+  .qlhh label {
+    width: auto;
+    float: left;
+    min-width: 135px; }
+  /* line 301, default.scss */
+  .qlhh input[type="text"] {
+    width: 50px; }
+  /* line 302, default.scss */
+  .qlhh input[type="submit"] {
+    float: left;
+    margin-top: 0; }
+
+@-webkit-keyframes Qwobble {
+  /* line 305, default.scss */
+  0% {
+    -webkit-transform: none;
+    transform: none; }
+
+  /* line 310, default.scss */
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
+
+  /* line 315, default.scss */
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+
+  /* line 320, default.scss */
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); }
+
+  /* line 325, default.scss */
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
+
+  /* line 330, default.scss */
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
+
+  /* line 335, default.scss */
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+@keyframes Qwobble {
+  /* line 342, default.scss */
+  0% {
+    -webkit-transform: none;
+    transform: none; }
+
+  /* line 347, default.scss */
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
+
+  /* line 352, default.scss */
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+
+  /* line 357, default.scss */
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); }
+
+  /* line 362, default.scss */
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
+
+  /* line 367, default.scss */
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
+
+  /* line 372, default.scss */
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+/* line 378, default.scss */
+.Qwobble {
+  -webkit-animation: Qwobble 1s ease infinite;
+  -moz-animation: Qwobble 1s ease infinite;
+  -ms-animation: Qwobble 1s ease infinite;
+  -o-animation: Qwobble 1s ease infinite;
+  animation: Qwobble 1s ease infinite; }
+
+/* line 387, default.scss */
+.fileinput {
+  margin-bottom: 9px;
+  display: block;
+  float: left;
+  width: 300px; }
+
+/* line 388, default.scss */
+.fileinput .thumbnail {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  text-align: center;
+  max-width: 100px;
+  float: left; }
+
+/* line 389, default.scss */
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+
+/* line 390, default.scss */
+.btn-file {
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle; }
+
+/* line 391, default.scss */
+.fileinput-exists .fileinput-new, .fileinput-new .fileinput-exists {
+  display: none; }
+
+/* line 392, default.scss */
+.fileinput-new button, .fileinput-exists button {
+  width: 100%;
+  background: #00a2e7;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  padding: 6px 25px;
+  border-radius: 4px;
+  border-bottom: 2px solid #0082b9; }
+  /* line 393, default.scss */
+  .fileinput-new button:hover, .fileinput-exists button:hover {
+    background: #0082b9; }
+
+/* line 395, default.scss */
+.btn-file > input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-size: 23px;
+  height: 100%;
+  width: 100%;
+  direction: ltr;
+  cursor: pointer; }
+
+/* line 396, default.scss */
+.btn-file > input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-size: 23px;
+  height: 100%;
+  width: 100%;
+  direction: ltr;
+  cursor: pointer; }
+
+/* line 398, default.scss */
+.spinner {
+  margin: auto auto;
+  width: 70px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; }
+
+/* line 406, default.scss */
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/* line 420, default.scss */
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s; }
+
+/* line 425, default.scss */
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s; }
+
+@-webkit-keyframes bouncedelay {
+  /* line 431, default.scss */
+  0%, 80%, 100% {
+    -webkit-transform: scale(0); }
+
+  /* line 432, default.scss */
+  40% {
+    -webkit-transform: scale(1); } }
+@keyframes bouncedelay {
+  /* line 436, default.scss */
+  0%, 80%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+
+  /* line 439, default.scss */
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+/* line 445, default.scss */
+#preview-area {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*// bottom: 60px;*/
+  right: 0;
+  margin: auto auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: table;
+  background: url(images/fancybox_overlay.png) repeat;
+  z-index: 99999; }
+.msgthongbao-wrap{position: absolute;z-index: 99999;width: 100%;height: 100%;top:0;right: 0;left: 0;bottom:0;background: url(images/fancybox_overlay.png) repeat;}
+.msgthongbao{background: #fff; border-radius: 6px; padding: 15px; width: 290px; margin: 0 auto;padding: 10px;box-sizing: border-box;margin-top: 20%;}
+
+.admin-wrap {
+  padding: 0;
+  margin: 8px 0 0; }
+  /* line 241, default.scss */
+  .admin-wrap h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333; }
+
+/* line 243, default.scss */
+.admin-left-content {
+  width: 20%;
+  padding: 15px;
+  background: #fd7e17;
+  float: left; }
+  /* line 244, default.scss */
+  .admin-left-content ul {padding:0;
+    margin-bottom: 20px; }
+  /* line 245, default.scss */
+  .admin-left-content li {
+    display: block;
+    border-bottom: 1px solid #fff; }
+    /* line 246, default.scss */
+    .admin-left-content li a {
+      padding: 5px;
+      display: block;
+      color: #333;
+      color: #fff; }
+      /* line 247, default.scss */
+      .admin-left-content li a:hover, .admin-left-content li a:active {
+        background: #fecb00;
+        color: #fff; }
+
+/* line 251, default.scss */
+.admin-right-content {
+  width: 80%;
+  float: right;
+  padding: 15px; }
+  /* line 252, default.scss */
+  .admin-right-content td {
+    padding: 5px;
+    border: 1px solid #c75a01;
+    vertical-align: middle; }
+  /* line 253, default.scss */
+  .admin-right-content h1 {
+    color: #cb0307; }
+  /* line 254, default.scss */
+  .admin-right-content h2 {
+    color: #cb0307;
+    font-size: 36px;
+    padding-right: 60px; }
+
+/* line 256, default.scss */
+.tr-head {
+  background: #fd7e17;
+  color: #fff; }
+
+/* line 257, default.scss */
+.frm-timkiem {
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto; }
+  /* line 259, default.scss */
+  .frm-timkiem .frm-form label {
+    min-height: 1px;
+    width: 100px;
+    padding-top: 5px; }
+  /* line 260, default.scss */
+  .frm-timkiem .frm-form input[type="text"] {
+    height: 34px;
+    padding-left: 5px;
+    float: left;
+    width: 100px;
+    border:1px solid #999;margin-right:5px; }
+  /* line 261, default.scss */
+  .frm-timkiem .frm-form input[type="submit"] {
+    margin-top: 0;
+    float: left;
+    margin-left: 5px;
+    padding: 5px 25px; }
+
+/* line 264, default.scss */
+.frm-napxu {
+  width: 500px;
+  margin: 0 auto; }
+  /* line 266, default.scss */
+  .frm-napxu .frm-form label {
+    width: 150px; }
+  /* line 267, default.scss */
+  .frm-napxu .frm-form input[type="submit"], .frm-napxu .frm-form button {
+    margin-top: 0;
+    float: left;
+    margin-left: 0px;
+    padding: 5px 25px; }
+
+/* line 271, default.scss */
+.btnactive {
+  background: #fd7e17;
+  border: none;
+  border-bottom: 2px solid #c25700;
+  border-radius: 2px;
+  padding: 5px 10px;
+  display: block;
+  color: #fff;
+  float: right;
+  width: 100px;
+  text-align: center; }
+  /* line 273, default.scss */
+  .btnactive:hover {
+    background: #c25700;
+    border-bottom: 2px solid #fd7e17;
+    color: #fff; }
+
+/* line 275, default.scss */
+.finished {
+  border: 1px solid #fd7e17;
+  padding: 2px 5px;
+  display: block;
+  float: right;
+  border-radius: 3px;
+  color: #fd7e17;
+  width: 100px;
+  text-align: center; }
+
+/* line 276, default.scss */
+.hasbutton {
+  display: block;
+  float: left;
+  padding-top: 6px; }
+
+/* line 277, default.scss */
+.btnewrequest {
+  background: #3cb401;
+  border-bottom: 2px solid #2d8901; }
+  /* line 278, default.scss */
+  .btnewrequest:hover {
+    background: #2d8901;
+    border-bottom: 2px solid #3cb401; }
+
+/* line 281, default.scss */
+.frm-napxu .frm-form.tylecuoc input[type='text'] {
+  width: 123px; }
+/* line 282, default.scss */
+.frm-napxu .frm-form.tylecuoc span {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding-top: 5px; }
+/* line 283, default.scss */
+.frm-napxu .frm-form.tylecuoc .xacnhan {
+  margin-top: 5px;
+  margin-left: 33px; }
+
+/* line 286, default.scss */
+.qlban {
+  width: 400px;
+  margin: 0 auto; }
+  /* line 288, default.scss */
+  .qlban .frm-form label {
+    display: block;
+    width: 230px; }
+  /* line 289, default.scss */
+  .qlban .frm-form input[type='text'] {
+    width: 123px; }
+  /* line 290, default.scss */
+  .qlban .frm-form input[type='submit'] {
+    float: left; }
+  /* line 291, default.scss */
+  .qlban .frm-form .waitting {
+    margin-right: 20px; }
+
+/* line 294, default.scss */
+.frm-timer {
+  width: 300px;
+  margin: 0 auto; }
+  /* line 295, default.scss */
+  .frm-timer label {
+    width: 150px; }
+  /* line 296, default.scss */
+  .frm-timer input[type="text"] {
+    width: 123px; }
+  /* line 297, default.scss */
+  .frm-timer input[type="submit"] {
+    float: left; }
+
+/* line 299, default.scss */
+.qlhh {
+  width: 400px;
+  margin: 0 auto; }
+  /* line 300, default.scss */
+  .qlhh label {
+    width: auto;
+    float: left;
+    min-width: 135px; }
+  /* line 301, default.scss */
+  .qlhh input[type="text"] {
+    width: 50px; }
+  /* line 302, default.scss */
+  .qlhh input[type="submit"] {
+    float: left;
+    margin-top: 0; }
+    
+ .dt-news input[type="text"] {
+height: 25px;
+width: 88%;
+display: inline-block;
+}
+.dt-news input[type="submit"],.dt-news input[type="button"] {
+background: #3cb401;
+border: none;
+border-bottom: 2px solid #2d8901;
+display: inline-block;
+float: left;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+border-radius: 4px;
+padding: 5px 15px;
+margin-top: 10px;
+}
+
+.dt-news label {
+width: 10%;
+display: block;
+vertical-align: top;
+min-height: 2px;
+float: left;
+}
+.dt-news textarea {
+width: 88%;
+height: 350px;
+display: inline-block;
+}
+
+.changepass span{display: block;margin-left: 150px;
+margin-top: 5px;
+color: red;}
+.huongdanchoigame h1{font-size:18px;}
+.thongbao{font-size: 16px;
+color: red;}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ajax &mdash; CKEditor Sample</title>
+	<script src="../ckeditor.js"></script>
+	<link rel="stylesheet" href="sample.css">
+	<script>
+
+		var html = '';
+
+		function createEditor() {
+			
+
+			// Create a new editor inside the <div id="editor">, setting its value to html
+			var config = {};
+			editor = CKEDITOR.appendTo( 'editor', config, html );
+		}
+	</script>
+</head>
+<body>
+		
+	
+	<p>
+		<input onclick="createEditor();" type="button" value="Create Editor">
+
+	</p>
+	<!-- This div will hold the editor. -->
+	<div id="editor">
+	</div>
+	
+	
+</body>
+</html>

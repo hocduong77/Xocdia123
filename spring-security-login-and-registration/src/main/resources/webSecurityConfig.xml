@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+	<http use-expressions="true">
+	<intercept-url pattern="/resetjax*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/admin-Reset-Server*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/checktt*" access="isAuthenticated()" />
+	<intercept-url pattern="/admin-huong-dan-nap-xu*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/huyxudarut*" access="isAuthenticated()" />
+	<intercept-url pattern="/adminhuongdan*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/forgetpage*" access="isAuthenticated()" />
+	<intercept-url pattern="/roiphong*" access="isAuthenticated()" />
+	<intercept-url pattern="/rutxu*" access="isAuthenticated()" />
+	<intercept-url pattern="/admin-huong-dan-choi-game*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/ql-hoa-hong*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/ql-thoi-gian-dem-nguoc*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/quan-ly-ty-le-cuoc*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/setstatus*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/dat-lenh-rut-tien/rutxuajax*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/dat-lenh-rut-tien*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/list-thanh-vien-rut-tien*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/napxuajax*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/timkiem*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/napxu*" access="hasRole('ROLE_ADMIN')" />
+	<intercept-url pattern="/broweroffnc*" access="isAuthenticated()" />
+	<intercept-url pattern="/broweroff*" access="isAuthenticated()" />
+	<intercept-url pattern="/isbancua*" access="isAuthenticated()" />
+	<intercept-url pattern="/bancua*" access="isAuthenticated()" />
+	<intercept-url pattern="/phongcho*" access="isAuthenticated()" />
+	<intercept-url pattern="/isclose*" access="isAuthenticated()" />
+	<intercept-url pattern="/xunhacaiload*" access="isAuthenticated()" />
+	<intercept-url pattern="/settime*" access="isAuthenticated()" />
+	<intercept-url pattern="/getnumber*" access="isAuthenticated()" />
+	<intercept-url pattern="/gettime*" access="isAuthenticated()" />
+	<intercept-url pattern="/nhacaiload*" access="isAuthenticated()" />
+	<intercept-url pattern="/nha-cai*" access="isAuthenticated()" />
+	<intercept-url pattern="/ajaxhuy*" access="isAuthenticated()" />
+	<intercept-url pattern="/ajaxxu*" access="isAuthenticated()" />
+	<intercept-url pattern="/tao-phong*" access="isAuthenticated()" />
+	<intercept-url pattern="/ban-choi*" access="isAuthenticated()" />
+<intercept-url pattern="/noi-quy*" access="permitAll" />
+<intercept-url pattern="/dang-ky*" access="permitAll" />
+<intercept-url pattern="/phong*" access="isAuthenticated()" />
+<intercept-url pattern="/ajaxtest*" access="isAuthenticated()" />
+<intercept-url pattern="/ajaxtestth*" access="isAuthenticated()" />
+	<intercept-url pattern="/thong-tin-thanh-vien*" access="isAuthenticated()" />
+	<intercept-url pattern="/huong-dan-choi-game*" access="permitAll" />
+	<intercept-url pattern="/changepass*" access="permitAll" />
+	<intercept-url pattern="/forgetpasschange*" access="permitAll" />
+	<intercept-url pattern="/forgetpass*" access="permitAll" />
+	<intercept-url pattern="/admin*" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/index*" access="permitAll" />
+		<intercept-url pattern="/login*" access="permitAll" />
+		<intercept-url pattern="/logout*" access="permitAll" />
+		<intercept-url pattern="/signin/**" access="permitAll" />
+		<intercept-url pattern="/signup/**" access="permitAll" />
+		<intercept-url pattern="/registration*" access="permitAll" />
+		<intercept-url pattern="/regitrationConfirm*" access="permitAll" />
+		<intercept-url pattern="/expiredAccount*" access="permitAll" />
+		<intercept-url pattern="/registration*" access="permitAll" />
+		<intercept-url pattern="/badUser*" access="permitAll" />
+		<intercept-url pattern="/emailError*" access="permitAll" />
+		<intercept-url pattern="/resources/**" access="permitAll" />
+		<intercept-url pattern="/invalidSession*" access="isAnonymous()" />
+		<intercept-url pattern="/" access="permitAll" />
+		<remember-me key="remMeKey" />
+		<intercept-url pattern="/**" access="isAuthenticated()" />
+		<form-login login-page='/login.html'
+			authentication-failure-url="/login.html?error=true"
+			authentication-success-handler-ref="myAuthenticationSuccessHandler"
+			default-target-url="/home.html" />
+		<session-management invalid-session-url="/login.html"
+			session-fixation-protection="none" />
+		<logout invalidate-session="false"  logout-success-url="/login.html"
+			logout-url="/j_spring_security_logout" delete-cookies="JSESSIONID" />
+	</http>
+	<authentication-manager>
+		<authentication-provider ref="authProvider"/>
+	</authentication-manager>
+</beans:beans>
